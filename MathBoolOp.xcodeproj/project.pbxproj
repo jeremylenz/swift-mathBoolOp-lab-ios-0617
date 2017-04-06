@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F5843121E970AE50078052A /* MathBoolOpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A17C91E26B94700034C1F /* MathBoolOpTests.swift */; };
+		6F5843141E970B500078052A /* MathMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A17D51E26B97400034C1F /* MathMethods.swift */; };
+		6F5843151E970B510078052A /* MathMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A17D51E26B97400034C1F /* MathMethods.swift */; };
+		6F5843161E970BDD0078052A /* MathBoolOpTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 7D5A17C51E26B94700034C1F /* MathBoolOpTests.xctest */; };
+		6F5843171E970BDE0078052A /* MathBoolOpTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 7D5A17C51E26B94700034C1F /* MathBoolOpTests.xctest */; };
 		7D5A17B51E26B94700034C1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A17B41E26B94700034C1F /* AppDelegate.swift */; };
 		7D5A17B71E26B94700034C1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A17B61E26B94700034C1F /* ViewController.swift */; };
 		7D5A17BA1E26B94700034C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5A17B81E26B94700034C1F /* Main.storyboard */; };
 		7D5A17BC1E26B94700034C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5A17BB1E26B94700034C1F /* Assets.xcassets */; };
 		7D5A17BF1E26B94700034C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5A17BD1E26B94700034C1F /* LaunchScreen.storyboard */; };
 		7D5A17CA1E26B94700034C1F /* MathBoolOpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A17C91E26B94700034C1F /* MathBoolOpTests.swift */; };
-		7D5A17D61E26B97400034C1F /* MathMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A17D51E26B97400034C1F /* MathMethods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,6 +197,7 @@
 				7D5A17BF1E26B94700034C1F /* LaunchScreen.storyboard in Resources */,
 				7D5A17BC1E26B94700034C1F /* Assets.xcassets in Resources */,
 				7D5A17BA1E26B94700034C1F /* Main.storyboard in Resources */,
+				6F5843161E970BDD0078052A /* MathBoolOpTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5843171E970BDE0078052A /* MathBoolOpTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5A17D61E26B97400034C1F /* MathMethods.swift in Sources */,
+				6F5843121E970AE50078052A /* MathBoolOpTests.swift in Sources */,
 				7D5A17B71E26B94700034C1F /* ViewController.swift in Sources */,
+				6F5843141E970B500078052A /* MathMethods.swift in Sources */,
 				7D5A17B51E26B94700034C1F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5843151E970B510078052A /* MathMethods.swift in Sources */,
 				7D5A17CA1E26B94700034C1F /* MathBoolOpTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MathBoolOp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JimCampagno.Swift.MathBoolOp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -362,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MathBoolOp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JimCampagno.Swift.MathBoolOp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -375,6 +385,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MathBoolOpTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JimCampagno.Swift.MathBoolOpTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -389,6 +400,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MathBoolOpTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JimCampagno.Swift.MathBoolOpTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +428,7 @@
 				7D5A17D01E26B94700034C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D5A17D11E26B94700034C1F /* Build configuration list for PBXNativeTarget "MathBoolOpTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				7D5A17D31E26B94700034C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
